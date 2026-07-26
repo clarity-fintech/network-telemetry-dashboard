@@ -1,0 +1,174 @@
+// Moniversive Invariant Static (MIS) — deep root
+// Creator: Chandler William Ferguson
+// Letter-hash + EMBED gates 3..=6 · settlement clrty-1 / chain 1202
+// Compile: bin/misc <file>.mis --check --compact-letters
+// Title: Network Telemetry Dashboard · GasOracleTick
+
+module NetworkTelemetryDashboardGasOracleTick {
+
+  invariant letter_hash_bound: letter_hash_root != @0;
+  invariant deep_root_moniversive: deep_root == moniversive;
+  invariant settlement_chain: chain_id == 1202;
+  invariant settlement_network_clrty1: settlement_network == clrty_1;
+  invariant kernel_is_misc: compiler_kernel == misc;
+  invariant pack_gas_oracle_tick_bound: pack_bound == true;
+  invariant catalog_backlink: mis_catalog_bound == true;
+
+  invariant gas_oracle_tick_001: gas_oracle_tick_001_bound == true;
+  invariant gas_oracle_tick_002: gas_oracle_tick_002_bound == true;
+  invariant gas_oracle_tick_003: gas_oracle_tick_003_bound == true;
+  invariant gas_oracle_tick_004: gas_oracle_tick_004_bound == true;
+  invariant gas_oracle_tick_005: gas_oracle_tick_005_bound == true;
+  invariant gas_oracle_tick_006: gas_oracle_tick_006_bound == true;
+  invariant gas_oracle_tick_007: gas_oracle_tick_007_bound == true;
+  invariant gas_oracle_tick_008: gas_oracle_tick_008_bound == true;
+  invariant gas_oracle_tick_009: gas_oracle_tick_009_bound == true;
+  invariant gas_oracle_tick_010: gas_oracle_tick_010_bound == true;
+  invariant gas_oracle_tick_011: gas_oracle_tick_011_bound == true;
+  invariant gas_oracle_tick_012: gas_oracle_tick_012_bound == true;
+  invariant gas_oracle_tick_013: gas_oracle_tick_013_bound == true;
+  invariant gas_oracle_tick_014: gas_oracle_tick_014_bound == true;
+  invariant gas_oracle_tick_015: gas_oracle_tick_015_bound == true;
+  invariant gas_oracle_tick_016: gas_oracle_tick_016_bound == true;
+  invariant gas_oracle_tick_017: gas_oracle_tick_017_bound == true;
+  invariant gas_oracle_tick_018: gas_oracle_tick_018_bound == true;
+  invariant gas_oracle_tick_019: gas_oracle_tick_019_bound == true;
+  invariant gas_oracle_tick_020: gas_oracle_tick_020_bound == true;
+
+  outcome assert_pack(payload: Bytes) {
+    require payload != @0;
+    constraint pack_bound == true;
+  }
+
+  outcome settle_clrty1(intent: Bytes) {
+    require intent != @0;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_gas_oracle_tick_001(payload: Bytes) {
+    require payload != @0;
+    constraint gas_oracle_tick_001_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_gas_oracle_tick_002(payload: Bytes) {
+    require payload != @0;
+    constraint gas_oracle_tick_002_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_gas_oracle_tick_003(payload: Bytes) {
+    require payload != @0;
+    constraint gas_oracle_tick_003_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_gas_oracle_tick_004(payload: Bytes) {
+    require payload != @0;
+    constraint gas_oracle_tick_004_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_gas_oracle_tick_005(payload: Bytes) {
+    require payload != @0;
+    constraint gas_oracle_tick_005_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_gas_oracle_tick_006(payload: Bytes) {
+    require payload != @0;
+    constraint gas_oracle_tick_006_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_gas_oracle_tick_007(payload: Bytes) {
+    require payload != @0;
+    constraint gas_oracle_tick_007_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_gas_oracle_tick_008(payload: Bytes) {
+    require payload != @0;
+    constraint gas_oracle_tick_008_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_gas_oracle_tick_009(payload: Bytes) {
+    require payload != @0;
+    constraint gas_oracle_tick_009_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_gas_oracle_tick_010(payload: Bytes) {
+    require payload != @0;
+    constraint gas_oracle_tick_010_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_gas_oracle_tick_011(payload: Bytes) {
+    require payload != @0;
+    constraint gas_oracle_tick_011_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_gas_oracle_tick_012(payload: Bytes) {
+    require payload != @0;
+    constraint gas_oracle_tick_012_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_gas_oracle_tick_013(payload: Bytes) {
+    require payload != @0;
+    constraint gas_oracle_tick_013_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_gas_oracle_tick_014(payload: Bytes) {
+    require payload != @0;
+    constraint gas_oracle_tick_014_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_gas_oracle_tick_015(payload: Bytes) {
+    require payload != @0;
+    constraint gas_oracle_tick_015_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_gas_oracle_tick_016(payload: Bytes) {
+    require payload != @0;
+    constraint gas_oracle_tick_016_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_gas_oracle_tick_017(payload: Bytes) {
+    require payload != @0;
+    constraint gas_oracle_tick_017_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_gas_oracle_tick_018(payload: Bytes) {
+    require payload != @0;
+    constraint gas_oracle_tick_018_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_gas_oracle_tick_019(payload: Bytes) {
+    require payload != @0;
+    constraint gas_oracle_tick_019_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_gas_oracle_tick_020(payload: Bytes) {
+    require payload != @0;
+    constraint gas_oracle_tick_020_bound == true;
+    constraint chain_id == 1202;
+  }
+
+
+  outcome emit_gas_oracle_tick(payload: Bytes) {
+    require payload != @0;
+    constraint gas_oracle_ok == true;
+    constraint chain_id == 1202;
+  }
+}

@@ -1,0 +1,168 @@
+// Moniversive Invariant Static (MIS) — deep root
+// Creator: Chandler William Ferguson
+// Letter-hash + EMBED gates 3..=6 · settlement clrty-1 / chain 1202
+// Compile: bin/misc <file>.mis --check --compact-letters
+// Title: Network Telemetry Dashboard · NodeLiveness
+
+module NetworkTelemetryDashboardNodeLiveness {
+
+  invariant letter_hash_bound: letter_hash_root != @0;
+  invariant deep_root_moniversive: deep_root == moniversive;
+  invariant settlement_chain: chain_id == 1202;
+  invariant settlement_network_clrty1: settlement_network == clrty_1;
+  invariant kernel_is_misc: compiler_kernel == misc;
+  invariant pack_node_liveness_bound: pack_bound == true;
+  invariant catalog_backlink: mis_catalog_bound == true;
+
+  invariant node_liveness_061: node_liveness_061_bound == true;
+  invariant node_liveness_062: node_liveness_062_bound == true;
+  invariant node_liveness_063: node_liveness_063_bound == true;
+  invariant node_liveness_064: node_liveness_064_bound == true;
+  invariant node_liveness_065: node_liveness_065_bound == true;
+  invariant node_liveness_066: node_liveness_066_bound == true;
+  invariant node_liveness_067: node_liveness_067_bound == true;
+  invariant node_liveness_068: node_liveness_068_bound == true;
+  invariant node_liveness_069: node_liveness_069_bound == true;
+  invariant node_liveness_070: node_liveness_070_bound == true;
+  invariant node_liveness_071: node_liveness_071_bound == true;
+  invariant node_liveness_072: node_liveness_072_bound == true;
+  invariant node_liveness_073: node_liveness_073_bound == true;
+  invariant node_liveness_074: node_liveness_074_bound == true;
+  invariant node_liveness_075: node_liveness_075_bound == true;
+  invariant node_liveness_076: node_liveness_076_bound == true;
+  invariant node_liveness_077: node_liveness_077_bound == true;
+  invariant node_liveness_078: node_liveness_078_bound == true;
+  invariant node_liveness_079: node_liveness_079_bound == true;
+  invariant node_liveness_080: node_liveness_080_bound == true;
+
+  outcome assert_pack(payload: Bytes) {
+    require payload != @0;
+    constraint pack_bound == true;
+  }
+
+  outcome settle_clrty1(intent: Bytes) {
+    require intent != @0;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_node_liveness_061(payload: Bytes) {
+    require payload != @0;
+    constraint node_liveness_061_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_node_liveness_062(payload: Bytes) {
+    require payload != @0;
+    constraint node_liveness_062_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_node_liveness_063(payload: Bytes) {
+    require payload != @0;
+    constraint node_liveness_063_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_node_liveness_064(payload: Bytes) {
+    require payload != @0;
+    constraint node_liveness_064_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_node_liveness_065(payload: Bytes) {
+    require payload != @0;
+    constraint node_liveness_065_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_node_liveness_066(payload: Bytes) {
+    require payload != @0;
+    constraint node_liveness_066_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_node_liveness_067(payload: Bytes) {
+    require payload != @0;
+    constraint node_liveness_067_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_node_liveness_068(payload: Bytes) {
+    require payload != @0;
+    constraint node_liveness_068_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_node_liveness_069(payload: Bytes) {
+    require payload != @0;
+    constraint node_liveness_069_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_node_liveness_070(payload: Bytes) {
+    require payload != @0;
+    constraint node_liveness_070_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_node_liveness_071(payload: Bytes) {
+    require payload != @0;
+    constraint node_liveness_071_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_node_liveness_072(payload: Bytes) {
+    require payload != @0;
+    constraint node_liveness_072_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_node_liveness_073(payload: Bytes) {
+    require payload != @0;
+    constraint node_liveness_073_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_node_liveness_074(payload: Bytes) {
+    require payload != @0;
+    constraint node_liveness_074_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_node_liveness_075(payload: Bytes) {
+    require payload != @0;
+    constraint node_liveness_075_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_node_liveness_076(payload: Bytes) {
+    require payload != @0;
+    constraint node_liveness_076_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_node_liveness_077(payload: Bytes) {
+    require payload != @0;
+    constraint node_liveness_077_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_node_liveness_078(payload: Bytes) {
+    require payload != @0;
+    constraint node_liveness_078_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_node_liveness_079(payload: Bytes) {
+    require payload != @0;
+    constraint node_liveness_079_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_node_liveness_080(payload: Bytes) {
+    require payload != @0;
+    constraint node_liveness_080_bound == true;
+    constraint chain_id == 1202;
+  }
+
+}
